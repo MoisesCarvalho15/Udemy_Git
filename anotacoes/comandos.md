@@ -21,3 +21,9 @@ Comandos Git | Descrição dos comandos |
 `git log -numeroDeCommits` | Visualizar uma quantidade exata de commits |
 `git log --oneline` | Visualizar somente as mensagens dos commits |
 `git log --stat` | Mostra o log de quais arquivos foram modificados |
+`git commit --amend -m "Sua mensagem"` | Alterar um commit anterior |
+`git commit --amend --no-edit` | Usa o último commit feito para outro arquivo adicionado (add o arquivo antes) |
+`git checkout númeroHash` | Volta para uma versão exata do arquivo |
+`git checkout master` | Volta para a versão mais recente do arquivo já salvo |
+`git clean -f` | Remove arquivos não rastreados (*Untracked*)
+`git reset --hard`| Remove qualquer arquivo, mesmo modificado |
