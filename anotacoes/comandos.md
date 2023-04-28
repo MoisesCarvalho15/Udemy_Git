@@ -17,3 +17,7 @@ Comandos Git | Descrição dos comandos |
 `git commit -m "Sua mensagem"` | Salvar (comentar) um arquivo no repositório do git |
 `git diff` | Visualizar alterações feitas no arquivo |
 `git diff --staged` ou `git diff --cached` | Comparação da área staged (preparada) e modified (modificada) |
+`git log` | Histórico de commits |
+`git log -numeroDeCommits` | Visualizar uma quantidade exata de commits |
+`git log --oneline` | Visualizar somente as mensagens dos commits |
+`git log --stat` | Mostra o log de quais arquivos foram modificados |
