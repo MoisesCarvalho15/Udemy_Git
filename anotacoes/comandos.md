@@ -10,3 +10,7 @@ Comandos Git | Descrição dos comandos |
 `git clone urlDoRepositório` | Clona o repositório |
 `git init` | Inicializa um repositório local|
 `git status` | Verifica o status do repositório |
+`git add nomeDoArquivo` | Adiciona um arquivo específico |
+`git add .` | Forma mais comum de adicionar vários arquivos de uma vez |
+`git rm --cached nomeDoArquivo` | Remove um arquivo específico que foi adicionado |
+`git rm --cached -r -f .` | Romove todos os arquivo adicionados |
