@@ -27,3 +27,8 @@ Comandos Git | Descrição dos comandos |
 `git checkout master` | Volta para a versão mais recente do arquivo já salvo |
 `git clean -f` | Remove arquivos não rastreados (*Untracked*)
 `git reset --hard`| Remove qualquer arquivo, mesmo modificado |
+`git update-index --skip-worktree nomeDoArquivo` | Ignora (não rastreia) o arquivo e suas demais extensões |
+`git update-index --no-slip-worktree nomeDoArquivo` | Volta a rastrear o arquivo |
+`git clone urlDoRepositório` | Clona um repositório específico |
+`git push` | Manda arquivos e alterações do programa para o servidor remoto |
+`git pull` | Traz as informações do servidor remoto para o servidor local |
